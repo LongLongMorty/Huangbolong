@@ -1,0 +1,110 @@
+navbar:
+  visiable: always # always, auto
+  logo: # choose [img] or [icon + title]
+    img: https://gravatar.loli.net/avatar/d17569d5934c5595b37020e7146847f4?d=mp&r=g&s=192
+    icon:
+    title:
+  menu:
+    - name: 博客
+      icon: fas fa-rss
+      url: /
+      
+    - name: 分类
+      icon: fas fa-folder-open
+      url: categories/
+      
+    - name: 归档
+      icon: fas fa-archive
+      url: archives/
+    - name: 友链
+      icon: fas fa-link
+      url: friends/
+    - name: 关于
+      icon: fas fa-info-circle
+      url: about/
+  search: 搜索   
+
+cover:
+  scheme: dock
+  features: 
+  background: https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN
+  title: ZhuFN's Blog
+search:
+  enable: true
+  service: hexo  # hexo, google, algolia, azure, baidu
+  js: https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@2.6.4/js/search.js
+
+site_footer:
+    copyright: '[Copyright © 2021 ZhuFN](/)'
+    social:
+    - icon: fas fa-envelope
+      url: mailto:z@zhufn.fun
+    - icon: fab fa-github
+      url: https://github.com/zhufengning
+    - icon: fas fa-headphones-alt
+      url: https://music.163.com/#/user/home?id=321503092
+
+sidebar: 
+  widget_library:
+    blogger:
+      class: blogger
+      display: [desktop] # [desktop, mobile]
+      avatar: https://gravatar.loli.net/avatar/d17569d5934c5595b37020e7146847f4?d=mp&r=g&s=192
+      title:
+      subtitle:
+      jinrishici: true # Poetry Today. You can set a string, and it will be displayed when loading fails.
+      social:
+        - icon: fas fa-envelope
+          url: mailto:z@zhufn.fun
+        - icon: fab fa-github
+          url: https://github.com/zhufengning
+        - icon: fas fa-headphones-alt
+          url: https://music.163.com/#/user/home?id=321503092
+    toc:
+      class: toc
+      display: [desktop, mobile] # [desktop, mobile]
+      header:
+        icon: fas fa-list
+        title: 本文目录
+      list_number: false
+      min_depth: 2
+      max_depth: 5
+    # ---------------------------------------
+    # category widget
+    category:
+      class: category
+      display: [desktop] # [desktop, mobile]
+      header:
+        icon: fas fa-folder-open
+        title: 文章分类
+        url: /blog/categories/
+    # ---------------------------------------
+    # tagcloud widget
+    tagcloud:
+      class: tagcloud
+      display: [desktop, mobile] # [desktop, mobile]
+      header:
+        icon: fas fa-tags
+        title: 热门标签
+        url: /blog/tags/
+      min_font: 14
+      max_font: 24
+      color: true
+      start_color: '#999'
+      end_color: '#555'    
+    webinfo:
+      class: webinfo
+      display: [desktop]
+      header:
+        icon: fas fa-award
+        title: 站点信息
+      type:
+        article:
+          enable: true
+          text: '文章数目：'
+          unit: '篇'
+        runtime:
+          enable: true
+          data: '2018/11/13'    # 填写建站日期
+          text: '已运行时间：'
+          unit: '天'
