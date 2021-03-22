@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://zhufn.fun:8080/
+url: http://zhufn.fun/
 root: /
 permalink: /archives/:urlname/
 permalink_defaults:

@@ -5,7 +5,8 @@ categories: 最短路
 urlname: 43
 tags:
 ---
-<!--markdown--># 题目
+<!--markdown-->
+# 题目
 （翻译太水了所以用英文）
 
 Farmer John has recently purchased a new car online, but in his haste he accidentally clicked the "Submit" button twice when selecting extra features for the car, and as a result the car ended up equipped with two GPS navigation systems! Even worse, the two systems often make conflicting decisions about the route that FJ should take.

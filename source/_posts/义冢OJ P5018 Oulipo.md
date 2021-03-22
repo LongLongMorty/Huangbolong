@@ -5,7 +5,8 @@ categories: KMP
 urlname: 35
 tags:
 ---
-<!--markdown--># 义冢OJ P5018 Oulipo
+<!--markdown-->
+# 义冢OJ P5018 Oulipo
 
 ## 描述
 

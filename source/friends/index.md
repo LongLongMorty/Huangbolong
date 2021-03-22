@@ -1,11 +1,10 @@
 ---
 title: 友链
 date: 2019-10-12 09:34:00
-categories: 动态规划
-urlname: 64
-tags:
 ---
-<!--markdown-->都是大佬%%%
+
+<!--markdown-->
+都是大佬%%%
 Perisino大佬：<s>https://www.cnblogs.com/perisino/ </s> <https://perisiely.github.io>  
 dyx大佬：<http://ddd-dyx.cn/>  
 rsj大佬：<https://www.cnblogs.com/ddddeacde/>  

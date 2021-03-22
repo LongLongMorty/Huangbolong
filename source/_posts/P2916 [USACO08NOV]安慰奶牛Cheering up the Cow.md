@@ -5,7 +5,8 @@ categories: 最小生成树
 urlname: 36
 tags:
 ---
-<!--markdown--># P2916 [USACO08NOV]安慰奶牛Cheering up the Cow
+<!--markdown-->
+# P2916 [USACO08NOV]安慰奶牛Cheering up the Cow
 
 ## 题目描述
 

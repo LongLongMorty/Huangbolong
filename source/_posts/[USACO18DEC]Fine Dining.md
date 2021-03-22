@@ -1,11 +1,12 @@
 ---
-title: \[USACO18DEC\]Fine Dining
+title: 【USACO18DEC】Fine Dining
 date: 2019-07-15 08:51:16
 categories: 最短路
 urlname: 44
 tags:
 ---
-<!--markdown--># [USACO18DEC]Fine Dining
+<!--markdown-->
+# [USACO18DEC]Fine Dining
 咕咕咕。。。
 
 什么？前几次考试？

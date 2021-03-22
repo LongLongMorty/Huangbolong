@@ -5,7 +5,8 @@ categories: 割点，割边
 urlname: 47
 tags:
 ---
-<!--markdown-->## 强连通分量
+<!--markdown-->
+## 强连通分量
 染色为搜索树根节点编号：
 ```cpp
 void tarjan (int p) {

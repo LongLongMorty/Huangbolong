@@ -5,7 +5,8 @@ categories: 平衡树
 urlname: 40
 tags:
 ---
-<!--markdown--># ~~震惊，我竟然写出了fhq Treap~~
+<!--markdown-->
+# ~~震惊，我竟然写出了fhq Treap~~
 
 > 先%fhq大佬
 >

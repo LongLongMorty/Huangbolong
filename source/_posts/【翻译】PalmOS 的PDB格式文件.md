@@ -5,7 +5,8 @@ categories: YouKnow
 urlname: 87
 tags:
 ---
-<!--markdown-->研究MOBI要从研究PDB开始。
+<!--markdown-->
+研究MOBI要从研究PDB开始。
 ~~但我还是不知道MOBI跟PalmOS有什么关系~~
 原文链接：<https://wiki.mobileread.com/wiki/PDB#Palm_Database_File_Code>
 PalmOS将所有RAM存储保存为数据库格式。RAM中没有文件系统。当同步到PC上时，这些数据库将被保存在单独的文件中，这就是添加扩展名的地方。设备RAM中的所有文件都必须是Palm数据库格式，无论是程序还是数据。为外部存储创建的PDB文件是数据文件，其中可以包含任意内容。

@@ -5,7 +5,8 @@ categories: 分治
 urlname: 50
 tags:
 ---
-<!--markdown-->经过了一周~~的划水~~，我终于搞懂了cdq分治。
+<!--markdown-->
+经过了一周~~的划水~~，我终于搞懂了cdq分治。
 
 总的来说，cdq分治处理偏序问题就是
 

@@ -5,7 +5,8 @@ categories: 动态规划
 urlname: 77
 tags:
 ---
-<!--markdown--># hdu 2196 Computer
+<!--markdown-->
+# hdu 2196 Computer
 
 树形dp，~~贼鸡儿难~~
 

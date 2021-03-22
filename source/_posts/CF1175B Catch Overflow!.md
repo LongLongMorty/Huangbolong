@@ -6,7 +6,8 @@ urlname: 42
 tags:
 - CodeForces
 ---
-<!--markdown--># 题目
+<!--markdown-->
+# 题目
 给一个函数 f，f 在一开始会传入 x 的初始值。f 有一些指令，指令分三种：
 
     for n - 循环

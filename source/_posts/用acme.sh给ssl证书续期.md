@@ -5,7 +5,8 @@ categories: 服务器维护
 urlname: 86
 tags:
 ---
-<!--markdown-->关于`acme.sh`的详细说明可以看[这里][1]  
+<!--markdown-->
+关于`acme.sh`的详细说明可以看[这里][1]  
 因为我的nginx的配置文件非常凌乱，所以我采用的是关掉nginx，让acme.sh自己作为服务器的方式来验证
 
 首先需要安装socat  

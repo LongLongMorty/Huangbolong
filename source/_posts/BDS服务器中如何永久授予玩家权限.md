@@ -5,7 +5,8 @@ categories: YouKnow
 urlname: 88
 tags:
 ---
-<!--markdown-->1.登录服务器，
+<!--markdown-->
+1.登录服务器，
 2.screen -d -r mc然后找到要改权限的人的xuid。xuid会在一个人连接或断开时会以下图形式记录
 ![GprYuQ.png](https://s1.ax1x.com/2020/03/26/GprYuQ.png)
 3.Ctrl + a然后按d退出screen
