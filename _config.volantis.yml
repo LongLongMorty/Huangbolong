@@ -239,8 +239,5 @@ article:
           img: # https://cdn.jsdelivr.net/gh/volantis-x/cdn-org/logo/128/telegram.png
           
 analytics:
-  busuanzi: #https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
-  leancloud:
-    app_id: Btosl2irNLxmpQNQLzxxb0eX-gzGzoHsz
-    app_key: lk23JR7m5JMKCvt5WPuI8qHx
-    custom_api_server: # 一般不需要写，除非自定义了 API Server
+  busuanzi: https://cdn.jsdelivr.net/gh/volantis-x/cdn-busuanzi@2.3/js/busuanzi.pure.mini.js
+
