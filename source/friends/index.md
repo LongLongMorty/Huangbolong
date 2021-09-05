@@ -5,7 +5,7 @@ date: 2019-10-12 09:34:00
 
 <!--markdown-->
 都是大佬%%%
-Perisino大佬：<s>https://www.cnblogs.com/perisino/ </s> <https://perisiely.github.io>  
+Perisino大佬：<s>https://www.cnblogs.com/perisino/ </s> <s><https://perisiely.github.io></s><https://ddmiurge.github.io/>  
 dyx大佬：<http://ddd-dyx.cn/>  
 rsj大佬：<https://www.cnblogs.com/ddddeacde/>  
 xjj大佬：<s> https://epworth.coding.me/ </s> <https://epworth.cn>  
