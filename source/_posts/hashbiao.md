@@ -5,7 +5,8 @@ categories: 哈希表
 urlname: haxibiao
 tags:
 ---
-题目链接：<https://www.luogu.com.cn/problem/P4305>  
+题目链接：  
+<https://www.luogu.com.cn/problem/P4305>  
 
 ```c
 #include <stdio.h>
