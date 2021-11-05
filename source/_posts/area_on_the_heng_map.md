@@ -199,4 +199,79 @@ int main(void)
     return 0;
 }
 ```
-正解未完待续  
+
+遇到严重超时TLE，我内心十分悲痛，打开了必应，搜索全网，搜到了一个题解。这个题解告诉我们  
+> 由淹没区域可以想到 ‘\’ 与 '/' 的配对。  
+> 此题比较特别的是如何组成一整个被水淹没的区间？答案是将所有配对的区间中 相互包含的区间合并。  
+> 如何合并呢？可以知道大区间所包含的小区间必定比大区间先入栈，则可以依此合并。  
+> 如何计算横截面积？所有配对的‘\’与'/'之间形成的横截面都为梯形或三角形，把问题分解为多个小问题来解答。  
+我看完大受启发，决定按此思路写一写。写了一段后发现，这哪里用得到栈，好像只需要加加减减就可以了。  
+这时我发现，只要我把最开始的做法变得更暴力一点，从每一个起点出发，如果再也达不到之前开始下降的高度，就扔掉这个起点，换下一个起点。这样做不仅不会浪费太多空间，而且比大模拟快很多，顺利AC。  
+```c
+#include <stdio.h>
+
+#define MAXN 20005
+
+char sgn[MAXN] = {0};
+double ans[MAXN] = {0};
+double tot = 0;
+int news = 0;
+int newa = 0;
+
+int main()
+{
+    int h = 0;
+    char t = getchar();
+    while (t == '/' || t == '\\' || t == '_')
+    {
+        sgn[++news] = t;
+        t = getchar();
+    }
+    int i = 1;
+    while (i <= news)
+    {
+        double sum = .5, hi = 1;
+        if (sgn[i] != '\\')
+        {
+            ++i;
+            continue;
+        }
+        int st = 1;
+        int j;
+        for (j = i + 1; j <= news && st > 0; ++j)
+        {
+            if (sgn[j] == '\\')
+            {
+                ++st;
+                ++hi;
+                sum += (hi - .5);
+            } else if (sgn[j] == '/')
+            {
+                --st;
+                --hi;
+                sum += (hi + .5);
+            } else
+            {
+                sum += hi;
+            }
+        }
+        if (st == 0)
+        {
+            i = j;
+            ans[++newa] = sum;
+            tot += sum;
+        } else
+        {
+            ++i;
+        }
+    }
+
+    printf("%.0lf\n%d ", tot, newa);
+    for (int i = 1; i <= newa; ++i)
+    {
+        printf("%.0lf ", ans[i]);
+    }
+    return 0;
+}
+```
+复健之路进行中~~
