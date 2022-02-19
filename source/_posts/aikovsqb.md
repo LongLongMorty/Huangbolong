@@ -9,5 +9,7 @@ tags:
 <iframe src="//player.bilibili.com/player.html?aid=636718382&bvid=BV1gb4y1t7Dt&cid=512405815&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
 
 控制逻辑抄的noita所以只支持键盘  
-[来一把](../../aikovsqb/magic.html)  
-[开源地址](https://github.com/zhufengning/magic_aiko_godot)
+在线版很卡，推荐下载Windows版  
+[来一把（在线）](../../aikovsqb/magic.html)  
+[来一把（Windows版）](https://wwi.lanzoup.com/iDgTm00by4ej)  
+[开源地址](https://github.com/zhufengning/magic_aiko_godot)  
