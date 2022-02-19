@@ -10,6 +10,7 @@ tags:
 
 控制逻辑抄的noita所以只支持键盘  
 在线版加载很卡（bgm有30mb），推荐下载Windows版  
+之前Windows版传错了打不开，现已修复。建议解压。  
 [来一把（在线）](../../aikovsqb/magic.html)  
-[来一把（Windows版）](https://wwi.lanzoup.com/iDgTm00by4ej)  
+[来一把（Windows版）](https://wwi.lanzoup.com/ibGZ500c44lc)  
 [开源地址](https://github.com/zhufengning/magic_aiko_godot)  
